@@ -4,9 +4,6 @@ public class LoginPage : RootPage
 {
     public LoginPage()
     {
-        Route(@"login
-            [#EMPTY#]");
-
         Layout(Layouts.Login);
 
         Add<Modules.LoginForm>();
