@@ -20,9 +20,9 @@ alertifyjs@alertifyjs/alertify.js#~0.3.18:
   resolved "https://codeload.github.com/alertifyjs/alertify.js/tar.gz/92b4996a4d4c0a2a99f93e168a8dc8ac35166669"
 
 ansi-regex@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-5.0.0.tgz#388539f55179bf39339c81af30a654d69f87cb75"
-  integrity sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg==
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
+  integrity sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==
 
 ansi-styles@^4.0.0:
   version "4.3.0"
@@ -57,18 +57,19 @@ bootstrap-filestyle@markusslima/bootstrap-filestyle#2.1.0:
   version "2.1.0"
   resolved "https://codeload.github.com/markusslima/bootstrap-filestyle/tar.gz/071ae6f3ff9a49a04346848b05d165e86c50f3b7"
 
-bootstrap-select@1.13.3:
-  version "1.13.3"
-  resolved "https://registry.yarnpkg.com/bootstrap-select/-/bootstrap-select-1.13.3.tgz#77f62b72c69339227753b3879cec036039dcb4d9"
-  integrity sha512-XzMwLFqRJQb142zR3ev57bZl66/h/RRguMODVfH0w2YTcJrqU+VCO6CserMxsVF4JE6hX9O99MQGZxgWZiitfg==
+bootstrap-select@1.13.6:
+  version "1.13.6"
+  resolved "https://registry.yarnpkg.com/bootstrap-select/-/bootstrap-select-1.13.6.tgz#dc41f8a7385ab4e385562b400d4cf2422f5ef852"
+  integrity sha512-MsOZjYVv0jjHOCUV6CG3J8MSsosrKL8MlA8DacMhMqFq43tTxMjjd7Czo5a/upKPNHW6asFq29oyKJTrPva6FQ==
 
 bootstrap-spinedit@BrandyMint/bootstrap-spinedit#*:
   version "0.0.0"
   resolved "https://codeload.github.com/BrandyMint/bootstrap-spinedit/tar.gz/fc6d3240f4cd35770ab43be1b76e59cf4606efb0"
 
-bootstrap@>=2.0.0, bootstrap@twbs/bootstrap#>=4.0.0:
-  version "4.5.3"
-  resolved "https://codeload.github.com/twbs/bootstrap/tar.gz/a716fb03f965dc0846df479e14388b1b4b93d7ce"
+bootstrap@>=2.0.0, bootstrap@twbs/bootstrap#>=5.0.0:
+  version "5.3.5"
+  uid "85f23534bd2de8041354b297516cf21959091b31"
+  resolved "https://codeload.github.com/twbs/bootstrap/tar.gz/85f23534bd2de8041354b297516cf21959091b31"
 
 bootstrap@^3.0, bootstrap@^3.3.5:
   version "3.4.1"
@@ -200,18 +201,12 @@ jquery-validation-unobtrusive@aspnet/jquery-validation-unobtrusive#3.2.6:
     jquery ">=1.8"
     jquery-validation ">=1.8"
 
-jquery-validation@>=1.8:
-  version "1.19.2"
-  resolved "https://registry.yarnpkg.com/jquery-validation/-/jquery-validation-1.19.2.tgz#c602831b0d8c5881400af424e872757ce241eff9"
-  integrity sha512-yHaAqOGaAB7+p2u5lpzhhQVt3CBMUw3fHcuCJ7nXmXz0LWLHPN7yOhwnocp5nrn2SmnXR1jpV+whx2j1kLz1tQ==
+jquery-validation@>=1.8, jquery-validation@jzaefferer/jquery-validation#1.21.0:
+  version "1.20.0"
+  uid "6c5e8525f87c92261154877ad2379c645eeab590"
+  resolved "https://codeload.github.com/jzaefferer/jquery-validation/tar.gz/6c5e8525f87c92261154877ad2379c645eeab590"
 
-jquery-validation@jzaefferer/jquery-validation#1.17.0:
-  version "1.17.0"
-  resolved "https://codeload.github.com/jzaefferer/jquery-validation/tar.gz/fc9b12d3bfaa2d0c04605855b896edb2934c0772"
-  dependencies:
-    jquery "^1.7 || ^2.0 || ^3.1"
-
-jquery@>=1.7.0, jquery@>=1.7.2, jquery@>=1.8, "jquery@^1.7 || ^2.0 || ^3.1", jquery@latest:
+jquery@>=1.7.0, jquery@>=1.7.2, jquery@>=1.8, jquery@latest:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
   integrity sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
@@ -221,9 +216,10 @@ jquery@^1.10:
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-1.12.4.tgz#01e1dfba290fe73deba77ceeacb0f9ba2fec9e0c"
   integrity sha1-AeHfuikP5z3rp3zurLD5ui/sngw=
 
-jquery@jquery/jquery-dist#3.2.1:
-  version "3.2.1"
-  resolved "https://codeload.github.com/jquery/jquery-dist/tar.gz/77d2a51d0520d2ee44173afdf4e40a9201f5964e"
+jquery@jquery/jquery-dist#3.7.1:
+  version "3.5.0"
+  uid "1fd78cd729742aa26f64783f9188e169e41f194e"
+  resolved "https://codeload.github.com/jquery/jquery-dist/tar.gz/1fd78cd729742aa26f64783f9188e169e41f194e"
 
 linkify-it@^2.0.0:
   version "2.2.0"
@@ -266,9 +262,9 @@ mdurl@^1.0.1:
   integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
 minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
+  integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
 mkdirp@0.5.5:
   version "0.5.5"
@@ -351,7 +347,8 @@ requirejs@^2.3.6:
 
 requirejs@jrburke/requirejs-bower#*:
   version "0.0.0"
-  resolved "https://codeload.github.com/jrburke/requirejs-bower/tar.gz/3596b04fa67953d2fb06456ecb92cf833b462b82"
+  uid "793a3ca453ab90d41efdc90f1288ccdaba18c4d5"
+  resolved "https://codeload.github.com/jrburke/requirejs-bower/tar.gz/793a3ca453ab90d41efdc90f1288ccdaba18c4d5"
 
 seiyria-bootstrap-slider@seiyria/bootstrap-slider#7.1.1:
   version "7.1.1"
@@ -407,9 +404,9 @@ wrap-ansi@^6.2.0:
     strip-ansi "^6.0.0"
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.3.tgz#b5f259c82cd6e336921efd7bfd8bf560de9eeedf"
+  integrity sha512-JKhqTOwSrqNA1NY5lSztJ1GrBiUodLMmIZuLiDaMRJ+itFd+ABVE8XBjOvIWL+rSqNDC74LCSFmlb/U4UZ4hJQ==
 
 yargs-parser@^18.1.2:
   version "18.1.3"
